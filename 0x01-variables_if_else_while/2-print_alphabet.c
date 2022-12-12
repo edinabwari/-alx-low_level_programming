@@ -6,8 +6,14 @@
  */
 int main (void)
 {
-	char alpha='abcdefghijklmnopqrstuvwxyz';
+	char alpha='a';
+	
+	while (alpha <= 'z')
+	{
 	putchar(alpha);
-	putchar('\n');
-	return(0);
+        alpha++;
+	}
+       putchar('\n');
+
+       return(0);
 }
