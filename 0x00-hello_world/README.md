@@ -1,1 +1,1 @@
-This is a c proram
+# This is a c programming
